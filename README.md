@@ -59,18 +59,18 @@ Permite guardar tus descargas directamente en tu ordenador o **pasarlas al insta
 
 BacaLoad cuenta con soporte nativo para distribuciones Linux:
 
-1. **Requisitos previos (Tkinter y FFmpeg)**:
+1. **Requisitos previos (Tkinter, venv y FFmpeg)**:
    - Ubuntu / Debian / Linux Mint:
      ```bash
-     sudo apt update && sudo apt install -y python3-tk ffmpeg
+     sudo apt update && sudo apt install -y python3-tk python3-venv ffmpeg
      ```
    - Fedora / RHEL:
      ```bash
-     sudo dnf install -y python3-tkinter ffmpeg
+     sudo dnf install -y python3-tkinter python3-pip ffmpeg
      ```
    - Arch Linux / Manjaro:
      ```bash
-     sudo pacman -S --noconfirm tk ffmpeg
+     sudo pacman -S --noconfirm tk python-pip ffmpeg
      ```
 2. **Ejecutar BacaLoad**:
    ```bash
@@ -84,10 +84,10 @@ BacaLoad cuenta con soporte nativo para distribuciones Linux:
 
 ## 📁 Organización de Carpetas
 
-- **`🚀 Abrir BacaLoad.lnk`**: Acceso directo principal para abrir la aplicación al instante en Windows.
+- **`Abrir BacaLoad.lnk`**: Acceso directo principal para abrir la aplicación al instante en Windows.
 - **`1 - Windows (Ejecutable)`**: Versión portátil para Windows (`BacaLoad.exe`), lista para usar sin necesidad de instalar Python ni librerías.
-- **`2 - Linux (Scripts y Ejecución)`**: Versión para distribuciones Linux con su lanzador automático (`run_linux.sh`), instalador de accesos directos (`setup_linux.sh`) e instrucciones detalladas.
-- **`3 - Para Enviar (ZIP Portátil)`**: Archivo ZIP autónomo listo para compartir o enviar sin instalaciones.
+- **`2 - Linux (Scripts y Ejecución)`**: Versión limpia para Linux con su lanzador automático (`run_linux.sh`), instalador de accesos directos (`setup_linux.sh`), instrucciones y subcarpeta `src/` que guarda los archivos internos.
+- **`3 - Para Enviar (ZIP Portátil)`**: Archivo ZIP multi-plataforma organizado con subcarpetas para Windows y Linux.
 - **`4 - Código Fuente (Python)`**: Archivos fuente completos (`app.py`, `core.py`, `gui.py`, etc.) para desarrolladores.
 - **`5 - Logos e Imágenes`**: Iconos y logotipos oficiales en alta definición.
 
