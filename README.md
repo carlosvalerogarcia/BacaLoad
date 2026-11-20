@@ -82,8 +82,18 @@ BacaLoad cuenta con soporte nativo para distribuciones Linux:
 
 ---
 
+## 📁 Organización de Carpetas
+
+- **`🚀 Abrir BacaLoad.lnk`**: Acceso directo principal para abrir la aplicación al instante en Windows.
+- **`1 - Windows (Ejecutable)`**: Versión portátil para Windows (`BacaLoad.exe`), lista para usar sin necesidad de instalar Python ni librerías.
+- **`2 - Linux (Scripts y Ejecución)`**: Versión para distribuciones Linux con su lanzador automático (`run_linux.sh`), instalador de accesos directos (`setup_linux.sh`) e instrucciones detalladas.
+- **`3 - Para Enviar (ZIP Portátil)`**: Archivo ZIP autónomo listo para compartir o enviar sin instalaciones.
+- **`4 - Código Fuente (Python)`**: Archivos fuente completos (`app.py`, `core.py`, `gui.py`, etc.) para desarrolladores.
+- **`5 - Logos e Imágenes`**: Iconos y logotipos oficiales en alta definición.
+
+---
+
 ## ⚙️ Ajustes útiles
 
 - **Cambiar carpeta de guardado**: En la esquina superior derecha puedes hacer clic en **📁 Cambiar** para elegir dónde quieres que se guarden tus archivos.
-- **Pestaña Herramientas**: Puedes comprobar el estado de los componentes y buscar actualizaciones manualmente en cualquier momento.
 - **Pestaña Herramientas**: Puedes comprobar el estado de los componentes y buscar actualizaciones manualmente en cualquier momento.
